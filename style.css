@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: #0020F4;
+    height: 387.56px;
+    padding-top: 40px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+ul li{
+    display: inline;
+    inline-size: 45px;
+}
+nav a{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 22px;
+    height: 18px;/* შენიშვნაში წერს inline_ის გამო არ მოქმედებს  */
+}
+.contact_white_box{
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: #171717;
+    font-weight: bold;
+    width: 160px;/* შენიშვნაში წერს inline_ის გამო არ მოქმედებს  */
+    height: 55px;/* შენიშვნაში წერს inline_ის გამო არ მოქმედებს  */
+}
+/* დამთავრდა header და იწყება main */
+section{
+    margin: auto;
+    margin-top: -172px;
+    max-width: 1195px;
+    width: 100%;
+}
+.Glass-building{
+    width: 100%;
+    border-radius: 15px;
+}
+h3{
+    color: #171717;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* მეხუთე სურათი არ ჯდება გვერდით, ვერ ვხვდები მიზეზს */
+.Glass-building-grey{
+    margin-right: 25px;
+    width: 219px;
+    border-radius: 15px;
+}
+.balconies{
+    margin-right: 25px;
+    width: 219px;
+    border-radius: 15px;
+}
+.wavy-building{
+    margin-right: 25px;
+    width: 219px;
+    border-radius: 15px;
+}
+.white-building{
+    margin-right: 25px;
+    width: 219px;
+    border-radius: 15px;
+}
+.skyscraper{
+    width: 219px;
+    border-radius: 15px;
+}
+p{
+    margin: auto;
+    width: 915px;
+}
+.section-paragraph{
+    margin-top: 60px;
+}
+div{
+    margin-top: 18px;
+}
+.div_paragraph{
+    margin-top: 20px;
+}
+.last_paragraph{
+    margin-top: 18px;
+}
+.read_more{
+    margin-top: 58px;
+    color: #FFFFFF;
+    background-color: #0A22F4;
+    border-radius: 28px;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
